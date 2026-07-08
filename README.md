@@ -14,7 +14,7 @@ Welcome to my portfolio! I am a Business Information Systems student specializin
 ### 🧹 1. SQL Data Cleaning Project
 * **Description:** A comprehensive SQL case study focused on transforming, structuring, and cleaning messy, unformatted business datasets to make them ready for analysis.
 * **Skills Demonstrated:** String Functions, Data Type Conversion, Handling Null Values, and Basic Query Optimization.
-* *(We will add the direct link to your SQL file here in the next step!)*
+* * **[View Raw SQL Code Here](https://github.com/abdullahsafwat312/Data-Analytics-Portfolio/blob/main/MySQL%20Data%20Cleaning%20project.sql)**
 
 ### 📊 2. Interactive Data Visualizations (Tableau)
 * **Description:** Dynamic, user-friendly business dashboards built to track performance metrics and operational trends.
