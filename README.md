@@ -23,9 +23,7 @@ Welcome to my portfolio! I am a Business Information Systems student specializin
 
 ### 📊 2. Interactive Data Visualizations (Tableau)
 * **Description:** Dynamic, user-friendly business dashboards built to track performance metrics and operational trends.
-* *(https://public.tableau.com/app/profile/abdullah.elhusseiny/viz/TheHollywoodROIreport/TheHollywoodROIReport)*
-* *(https://public.tableau.com/app/profile/abdullah.elhusseiny/viz/KentuckyDashboard_17641146262700/KentuckyDashboard)*
-* *(https://public.tableau.com/app/profile/abdullah.elhusseiny/viz/BigFootSightingsbyState_17639349094580/BigFootsightingsbyState)*
+[Check My Vizzes on My Tableau Profile!](https://public.tableau.com/app/profile/abdullah.elhusseiny/vizzes)
 
 ### 🎨 3. Operational System Flows (Figma)
 * **Description:** Mapping logical backend workflows and user journeys to ensure seamless operational processes.
