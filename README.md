@@ -40,7 +40,7 @@ Welcome to my portfolio! I am a Business Information Systems student specializin
 │   └── https://github.com/abdullahsafwat312/Data-Analytics-Portfolio/blob/main/Surveys.pbix
 
 ├── Screenshots/
-│   └── https://github.com/abdullahsafwat312/Data-Analytics-Portfolio/blob/main/survey.png
+│   └── https://github.com/abdullahsafwat312/Data-Analytics-Portfolio/blob/main/survey2.png
 ├── README.md
 # 📊 Data Professional Survey Breakdown | Power BI Project
 
@@ -53,7 +53,7 @@ The goal of this project is to provide actionable insights into industry salarie
 
 ## 📸 Dashboard Overview
 
-![Dashboard Preview](https://github.com/abdullahsafwat312/Data-Analytics-Portfolio/blob/main/survey.png)
+![Dashboard Preview](https://github.com/abdullahsafwat312/Data-Analytics-Portfolio/blob/main/survey2.png)
 
 ---
 
