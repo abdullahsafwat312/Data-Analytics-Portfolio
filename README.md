@@ -33,8 +33,75 @@ Welcome to my portfolio! I am a Business Information Systems student specializin
 [Check My Vizzes on My Tableau Profile!](https://public.tableau.com/app/profile/abdullah.elhusseiny/vizzes)
 
 #### 📊4. Power BI Projects
-* [Store & Product Price Analysis]![Power BI Dashboard Preview](https://github.com/abdullahsafwat312/PowerBI-Store-Sales-Analysis/blob/main/Screenshot%202026-08-04%20185232.png)
-![Power BI Dashboard File](https://github.com/abdullahsafwat312/PowerBI-Store-Sales-Analysis/blob/main/store%20sales.pbix)
+* ├── Data/
+│   └── https://github.com/abdullahsafwat312/Data-Analytics-Portfolio/blob/main/Power%20BI%20-%20SurveyProject.xlsx
+
+├── Dashboards/
+│   └── https://github.com/abdullahsafwat312/Data-Analytics-Portfolio/blob/main/Surveys.pbix
+
+├── Screenshots/
+│   └── https://github.com/abdullahsafwat312/Data-Analytics-Portfolio/blob/main/survey.png
+├── README.md
+# 📊 Data Professional Survey Breakdown | Power BI Project
+
+## 📌 Project Overview
+This Power BI project analyzes raw survey data collected from **600+ Data Professionals** (Data Analysts, Data Engineers, Data Scientists, Architects, etc.). 
+
+The goal of this project is to provide actionable insights into industry salaries, demographic distributions, popular programming languages, job satisfaction metrics, and the perceived difficulty of breaking into the data field.
+
+---
+
+## 📸 Dashboard Overview
+
+![Dashboard Preview](https://github.com/abdullahsafwat312/Data-Analytics-Portfolio/blob/main/survey.png)
+
+---
+
+## 🔍 Key Insights & Visualizations
+
+* **💰 Compensation Analysis:** Highlighting average salaries across job titles, showing Data Scientists leading in average compensation ($93k+), followed by Data Engineers and Analysts.
+* **🌐 Geographic Breakdown:** Comparative view of average salary trends across major regions (US, India, UK, Canada).
+* **💻 Technical Skill Trends:** Frequency breakdown of favorite programming languages, led by **Python** and **R**.
+* **😃 Job Satisfaction Indicators:** Gauge metrics tracking happiness ratings (scale 0–10) across two major pillars:
+  * **Work-Life Balance** (Average: ~5.7/10)
+  * **Salary Satisfaction** (Average: ~4.2/10)
+* **🎯 Career Entry Difficulty:** Segmented breakdown showing user perception of how difficult it was to enter the data field.
+
+---
+
+## 🛠️ Data Transformation & ETL (Power Query)
+
+The raw survey dataset contained non-standardized text fields, nested survey choices, and raw numeric ranges. The following transformations were performed in **Power Query**:
+
+| Transformation | Method / Details |
+| :--- | :--- |
+| **Title Standardization** | Split columns using custom delimiters to isolate primary job titles (Data Analyst, Engineer, Scientist, Architect, etc.) from `Other` free-text inputs. |
+| **Salary Range Conversion** | Extracted numerical ranges (e.g., `100k-125k`) and calculated custom average numeric salary values for aggregation. |
+| **Country & Language Cleaning** | Grouped scattered free-text answers into distinct core categories (`US`, `India`, `Canada`, `Other`). |
+| **Data Type Optimization** | Converted survey metrics to integer and decimal types for accurate aggregation in DAX and charts. |
+
+---
+
+## 📊 Data Model & DAX Measures
+
+* **Total Survey Takers:** `COUNTROWS('SurveyData')`
+* **Average Age:** `AVERAGE('SurveyData'[Age])`
+* **Average Salary:** `AVERAGE('SurveyData'[Average Salary])`
+* **Work-Life Balance Score:** `AVERAGE('SurveyData'[Work Life Balance])`
+
+---
+
+## 🧰 Tools & Technologies Used
+* **Power BI Desktop:** Data modeling, DAX measures, custom visual formatting, and UI styling.
+* **Power Query:** ETL, delimiter splitting, data type conversions, and missing value handling.
+* **Excel / CSV:** Raw source data storage.
+
+---
+
+## 🙏 Credits & Acknowledgments
+* Data collection and tutorial guidance by **Alex Freberg (Alex The Analyst)**.
+* Dataset derived from the *Data Professional Survey*.
+
 
 ##### 🎨 5. Operational System Flows (Figma)
 * **Description:** Mapping logical backend workflows and user journeys to ensure seamless operational processes.
